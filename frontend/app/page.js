@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { ethers } from "ethers";
-import { set, z } from "zod";
+import { z } from "zod";
 import abi from "@/components/simpletransaction.json"
 const transactionSchema = z.object({
   toAddress: z
